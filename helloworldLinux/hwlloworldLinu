@@ -1,0 +1,37 @@
+#!/bin/bash
+
+# Paso 1: Imprimir Hello World
+echo "Paso 1: Imprimiendo Hello World"
+echo "Hello World"
+echo ""
+read -p "Presiona Enter para continuar..."
+
+# Paso 2: Listar contenido del directorio actual
+echo ""
+echo "Paso 2: Listando contenido del directorio actual"
+ls -la
+echo ""
+read -p "Presiona Enter para continuar..."
+
+# Paso 3: Crear directorio Test
+echo ""
+echo "Paso 3: Creando directorio Test"
+mkdir Test
+echo "Directorio Test creado"
+echo ""
+read -p "Presiona Enter para continuar..."
+
+# Paso 4: Cambiar al directorio Test
+echo ""
+echo "Paso 4: Cambiando al directorio Test"
+cd Test
+echo "Ahora estamos en: $(pwd)"
+echo ""
+read -p "Presiona Enter para continuar..."
+
+# Paso 5: Listar contenido del directorio Test
+echo ""
+echo "Paso 5: Listando contenido del directorio Test"
+ls -la
+echo ""
+read -p "Presiona Enter para terminar..."
